@@ -1,0 +1,30 @@
+#lga {
+	height: 10px !important;
+	opacity: 0 !important;
+	overflow: hidden !important;
+}
+#mv-tiles {
+	width: 340px !important;
+	height: 300px !important;
+}
+@media only screen and (min-width: 660px) {
+	#mv-tiles {
+		width: 520px !important;
+	}
+}
+@media only screen and (min-width: 820px) {
+	#mv-tiles {
+		width: 700px !important;
+	}
+}
+#mv-tiles .mv-tile{
+	height: 103px !important;
+	width: 158px !important;
+}
+#mv-tiles .mv-tile .mv-title{
+	width: 160px !important;
+}
+#mv-tiles .mv-tile .mv-thumb{
+	height: 103px !important;
+	width: 158px !important;
+}

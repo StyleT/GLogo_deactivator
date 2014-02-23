@@ -1,0 +1,12 @@
+{
+   "name": "Google logo deactivator",
+   "version": "1.1",
+   "author": "Vlad StyleT Fedosov",
+   "homepage_url": "https://github.com/StyleT/GLogo_deactivator",
+   "manifest_version": 2,
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4r/pUHVPYQTn7vu3YHT52I0SKM15OBOTi0Jii4q5Koxd3Gdc/WXdqC2YgMA25J5PRiSubu/nHFf12Ubp3OZyNqB3j45ZscQ+tH1bwcV+cqdvv/Ik6VQaS6/qLmenLdFPKOCg/g1L1iKZu6Jjny6GlovpBj+7gjWQZBIoGBd70HQIDAQAB",
+   "content_scripts": [{
+      "css": [ "style.css" ],
+      "matches": [ "<all_urls>" ]
+   }]
+}
