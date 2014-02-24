@@ -133,7 +133,7 @@ strong {
   font-weight: bold;
 }
 
-img {
+img.picture {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
